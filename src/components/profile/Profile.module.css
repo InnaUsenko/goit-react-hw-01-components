@@ -1,7 +1,9 @@
 .txtGray {
-  color: #464545;
+  color: #aab5bf;
 }
 .profile {
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
   border: 2px solid;
   border-radius: 2%;
@@ -25,7 +27,7 @@
   margin: 0;
   margin-top: 42px;
   width: 100%;
-  background-color: #b4b2b2;
+  background-color: #f3f6f9;
   list-style: none;
 }
 

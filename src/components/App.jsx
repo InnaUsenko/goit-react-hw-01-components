@@ -2,5 +2,15 @@ import userData from '../data/user.json';
 import { Profile } from './profile/Profile';
 
 export const App = () => {
-  return <Profile usr={userData} />;
+  return (
+    <div
+      style={{
+        width: 600,
+        padding: '16px',
+        backgroundColor: '#E7ECF2',
+      }}
+    >
+      <Profile usr={userData} />
+    </div>
+  );
 };

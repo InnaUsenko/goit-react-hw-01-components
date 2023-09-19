@@ -4,8 +4,8 @@ export const Profile = props => {
     <div className={css.profile}>
       <img className={css.photo} src={props.usr.avatar} alt="avatar" />
       <h1>{props.usr.username}</h1>
-      <p>@{props.usr.tag}</p>
-      <p>{props.usr.location}</p>
+      <p className={css.txtGray}>@{props.usr.tag}</p>
+      <p className={css.txtGray}>{props.usr.location}</p>
 
       <ul className={css.stats}>
         {Object.keys(props.usr.stats).map((key, index) => {
